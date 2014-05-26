@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_DSlDIN-mEeOKN-thXSzDPA" type="UMLStateMachine" name="Encuesta.umlstm" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_EPfXUN-mEeOKN-thXSzDPA" type="2005" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_EPf-YN-mEeOKN-thXSzDPA" type="5011"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_EPf-Yd-mEeOKN-thXSzDPA" type="5012"/>
+    <children xmi:type="notation:Shape" xmi:id="_EPiaoN-mEeOKN-thXSzDPA" type="3013" fontName="Segoe UI">
+      <children xmi:type="notation:DecorationNode" xmi:id="_EPiaot-mEeOKN-thXSzDPA" type="7004">
+        <children xmi:type="notation:Node" xmi:id="_HOISsN-mEeOKN-thXSzDPA" type="3004">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_HOISsd-mEeOKN-thXSzDPA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_HOISst-mEeOKN-thXSzDPA" fontName="Segoe UI"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_HOISs9-mEeOKN-thXSzDPA"/>
+          <element xmi:type="uml:Pseudostate" href="Encuesta.uml#_HN0JoN-mEeOKN-thXSzDPA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HOIStN-mEeOKN-thXSzDPA" x="31" y="296"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_HpsNUN-mEeOKN-thXSzDPA" type="3001" fontName="Segoe UI">
+          <children xmi:type="notation:DecorationNode" xmi:id="_Hps0YN-mEeOKN-thXSzDPA" type="5001"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_Hps0Yd-mEeOKN-thXSzDPA" type="5015"/>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_Hps0Yt-mEeOKN-thXSzDPA" type="7005">
+            <styles xmi:type="notation:TitleStyle" xmi:id="_Hps0Y9-mEeOKN-thXSzDPA" showTitle="true"/>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_Hps0ZN-mEeOKN-thXSzDPA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_Hps0Zd-mEeOKN-thXSzDPA"/>
+          </children>
+          <element xmi:type="uml:State" href="Encuesta.uml#_HpLP8N-mEeOKN-thXSzDPA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HpsNUd-mEeOKN-thXSzDPA" x="449" y="287"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_SIz3kN-mEeOKN-thXSzDPA" type="3001" fontName="Segoe UI">
+          <children xmi:type="notation:DecorationNode" xmi:id="_SIz3kt-mEeOKN-thXSzDPA" type="5001"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_SIz3k9-mEeOKN-thXSzDPA" type="5015"/>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_SIz3lN-mEeOKN-thXSzDPA" type="7005">
+            <styles xmi:type="notation:TitleStyle" xmi:id="_SIz3ld-mEeOKN-thXSzDPA" showTitle="true"/>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_SIz3lt-mEeOKN-thXSzDPA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_SIz3l9-mEeOKN-thXSzDPA"/>
+          </children>
+          <element xmi:type="uml:State" href="Encuesta.uml#_SItJ4N-mEeOKN-thXSzDPA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SIz3kd-mEeOKN-thXSzDPA" x="712" y="288"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_jylxsN-mEeOKN-thXSzDPA" type="3001" fontName="Segoe UI">
+          <children xmi:type="notation:DecorationNode" xmi:id="_jylxst-mEeOKN-thXSzDPA" type="5001"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_jylxs9-mEeOKN-thXSzDPA" type="5015"/>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_jylxtN-mEeOKN-thXSzDPA" type="7005">
+            <styles xmi:type="notation:TitleStyle" xmi:id="_jylxtd-mEeOKN-thXSzDPA" showTitle="true"/>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_jylxtt-mEeOKN-thXSzDPA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_jylxt9-mEeOKN-thXSzDPA"/>
+          </children>
+          <element xmi:type="uml:State" href="Encuesta.uml#_jyfEAN-mEeOKN-thXSzDPA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jylxsd-mEeOKN-thXSzDPA" x="882" y="151"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_5BVx8N-nEeOKN-thXSzDPA" type="3003">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_5BVx8d-nEeOKN-thXSzDPA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_5BVx8t-nEeOKN-thXSzDPA" fontName="Segoe UI"/>
+          <styles xmi:type="notation:FillStyle" xmi:id="_5BVx89-nEeOKN-thXSzDPA"/>
+          <element xmi:type="uml:FinalState" href="Encuesta.uml#_5BUj0N-nEeOKN-thXSzDPA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5BVx9N-nEeOKN-thXSzDPA" x="1292" y="296"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_-SC2kN-nEeOKN-thXSzDPA" type="3010" fontName="Segoe UI">
+          <element xmi:type="uml:Pseudostate" href="Encuesta.uml#_-SBBYN-nEeOKN-thXSzDPA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-SC2kd-nEeOKN-thXSzDPA" x="1082" y="286"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_DEOzMN-oEeOKN-thXSzDPA" type="3003">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_DEOzMd-oEeOKN-thXSzDPA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_DEOzMt-oEeOKN-thXSzDPA" fontName="Segoe UI"/>
+          <styles xmi:type="notation:FillStyle" xmi:id="_DEOzM9-oEeOKN-thXSzDPA"/>
+          <element xmi:type="uml:FinalState" href="Encuesta.uml#_DEM-AN-oEeOKN-thXSzDPA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DEOzNN-oEeOKN-thXSzDPA" x="962" y="476"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_DZ9yoN-oEeOKN-thXSzDPA" type="Note" fontName="Segoe UI" description="Terminada" transparency="0" lineColor="16777215" lineWidth="1">
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_DZ-ZsN-oEeOKN-thXSzDPA" type="DiagramName">
+            <element xsi:nil="true"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_DZ-Zsd-oEeOKN-thXSzDPA" type="Description">
+            <element xsi:nil="true"/>
+          </children>
+          <styles xmi:type="notation:TextStyle" xmi:id="_DZ9yod-oEeOKN-thXSzDPA"/>
+          <styles xmi:type="notation:LineTypeStyle" xmi:id="_DZ9yot-oEeOKN-thXSzDPA"/>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DZ9yo9-oEeOKN-thXSzDPA" x="927" y="501" height="28"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_FBVZEN-oEeOKN-thXSzDPA" type="Note" fontName="Segoe UI" description="Cancelada" transparency="0" lineColor="16777215" lineWidth="1">
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_FBVZFN-oEeOKN-thXSzDPA" type="DiagramName">
+            <element xsi:nil="true"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_FBVZFd-oEeOKN-thXSzDPA" type="Description">
+            <element xsi:nil="true"/>
+          </children>
+          <styles xmi:type="notation:TextStyle" xmi:id="_FBVZEd-oEeOKN-thXSzDPA"/>
+          <styles xmi:type="notation:LineTypeStyle" xmi:id="_FBVZEt-oEeOKN-thXSzDPA"/>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FBVZE9-oEeOKN-thXSzDPA" x="1252" y="321" height="29"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_qAWCgN-oEeOKN-thXSzDPA" type="Note" fontName="Segoe UI" description="¿Se desea interrumpir la publicación de la encuesta?" transparency="0" lineColor="16777215" lineWidth="1">
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_qAWChN-oEeOKN-thXSzDPA" type="DiagramName">
+            <element xsi:nil="true"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_qAWChd-oEeOKN-thXSzDPA" type="Description">
+            <element xsi:nil="true"/>
+          </children>
+          <styles xmi:type="notation:TextStyle" xmi:id="_qAWCgd-oEeOKN-thXSzDPA"/>
+          <styles xmi:type="notation:LineTypeStyle" xmi:id="_qAWCgt-oEeOKN-thXSzDPA"/>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qAWCg9-oEeOKN-thXSzDPA" x="1002" y="211" width="116"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_am594N-pEeOKN-thXSzDPA" type="Note" fontName="Segoe UI" description="Si, temporalmente" transparency="0" lineColor="16777215" lineWidth="1">
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_am595N-pEeOKN-thXSzDPA" type="DiagramName">
+            <element xsi:nil="true"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_am595d-pEeOKN-thXSzDPA" type="Description">
+            <element xsi:nil="true"/>
+          </children>
+          <styles xmi:type="notation:TextStyle" xmi:id="_am594d-pEeOKN-thXSzDPA"/>
+          <styles xmi:type="notation:LineTypeStyle" xmi:id="_am594t-pEeOKN-thXSzDPA"/>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_am5949-pEeOKN-thXSzDPA" x="982" y="151" height="26"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_brEJkN-pEeOKN-thXSzDPA" type="Note" fontName="Segoe UI" description="Si, definitivamente" transparency="0" lineColor="16777215" lineWidth="1">
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_brEJlN-pEeOKN-thXSzDPA" type="DiagramName">
+            <element xsi:nil="true"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_brEJld-pEeOKN-thXSzDPA" type="Description">
+            <element xsi:nil="true"/>
+          </children>
+          <styles xmi:type="notation:TextStyle" xmi:id="_brEJkd-pEeOKN-thXSzDPA"/>
+          <styles xmi:type="notation:LineTypeStyle" xmi:id="_brEJkt-pEeOKN-thXSzDPA"/>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_brEJk9-pEeOKN-thXSzDPA" x="1157" y="286" height="33"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_lNnd4N-pEeOKN-thXSzDPA" type="Note" fontName="Segoe UI" description="No" transparency="0" lineColor="16777215" lineWidth="1">
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_lNoE8N-pEeOKN-thXSzDPA" type="DiagramName">
+            <element xsi:nil="true"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_lNoE8d-pEeOKN-thXSzDPA" type="Description">
+            <element xsi:nil="true"/>
+          </children>
+          <styles xmi:type="notation:TextStyle" xmi:id="_lNnd4d-pEeOKN-thXSzDPA"/>
+          <styles xmi:type="notation:LineTypeStyle" xmi:id="_lNnd4t-pEeOKN-thXSzDPA"/>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lNnd49-pEeOKN-thXSzDPA" x="957" y="366" width="46" height="26"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_3VJrAN-pEeOKN-thXSzDPA" type="Note" fontName="Segoe UI" description="Crear encuesta" transparency="0" lineColor="16777215" lineWidth="1">
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_3VJrBN-pEeOKN-thXSzDPA" type="DiagramName">
+            <element xsi:nil="true"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_3VKSEN-pEeOKN-thXSzDPA" type="Description">
+            <element xsi:nil="true"/>
+          </children>
+          <styles xmi:type="notation:TextStyle" xmi:id="_3VJrAd-pEeOKN-thXSzDPA"/>
+          <styles xmi:type="notation:LineTypeStyle" xmi:id="_3VJrAt-pEeOKN-thXSzDPA"/>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3VJrA9-pEeOKN-thXSzDPA" x="67" y="281" height="28"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_6CcXsN-pEeOKN-thXSzDPA" type="Note" fontName="Segoe UI" description="Publicar encuesta" transparency="0" lineColor="16777215" lineWidth="1">
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_6Cc-wN-pEeOKN-thXSzDPA" type="DiagramName">
+            <element xsi:nil="true"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_6Cc-wd-pEeOKN-thXSzDPA" type="Description">
+            <element xsi:nil="true"/>
+          </children>
+          <styles xmi:type="notation:TextStyle" xmi:id="_6CcXsd-pEeOKN-thXSzDPA"/>
+          <styles xmi:type="notation:LineTypeStyle" xmi:id="_6CcXst-pEeOKN-thXSzDPA"/>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6CcXs9-pEeOKN-thXSzDPA" x="577" y="286" height="28"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_wAc44N-qEeOKN-thXSzDPA" type="Note" fontName="Segoe UI" description="Detener publicación" transparency="0" lineColor="16777215" lineWidth="1">
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_wAdf8N-qEeOKN-thXSzDPA" type="DiagramName">
+            <element xsi:nil="true"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_wAdf8d-qEeOKN-thXSzDPA" type="Description">
+            <element xsi:nil="true"/>
+          </children>
+          <styles xmi:type="notation:TextStyle" xmi:id="_wAc44d-qEeOKN-thXSzDPA"/>
+          <styles xmi:type="notation:LineTypeStyle" xmi:id="_wAc44t-qEeOKN-thXSzDPA"/>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wAc449-qEeOKN-thXSzDPA" x="802" y="286" height="25"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_dba6oN-uEeOKN-thXSzDPA" type="Note" fontName="Segoe UI" description="Terminar publicación" transparency="0" lineColor="16777215" lineWidth="1">
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_dbbhsN-uEeOKN-thXSzDPA" type="DiagramName">
+            <element xsi:nil="true"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_dbbhsd-uEeOKN-thXSzDPA" type="Description">
+            <element xsi:nil="true"/>
+          </children>
+          <styles xmi:type="notation:TextStyle" xmi:id="_dba6od-uEeOKN-thXSzDPA"/>
+          <styles xmi:type="notation:LineTypeStyle" xmi:id="_dba6ot-uEeOKN-thXSzDPA"/>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dba6o9-uEeOKN-thXSzDPA" x="632" y="378" height="29"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_omlykN-uEeOKN-thXSzDPA" type="Note" fontName="Segoe UI" description="Reanudar publicación" transparency="0" lineColor="16777215" lineWidth="1">
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_omlylN-uEeOKN-thXSzDPA" type="DiagramName">
+            <element xsi:nil="true"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_omlyld-uEeOKN-thXSzDPA" type="Description">
+            <element xsi:nil="true"/>
+          </children>
+          <styles xmi:type="notation:TextStyle" xmi:id="_omlykd-uEeOKN-thXSzDPA"/>
+          <styles xmi:type="notation:LineTypeStyle" xmi:id="_omlykt-uEeOKN-thXSzDPA"/>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_omlyk9-uEeOKN-thXSzDPA" x="742" y="151" height="27"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_z3emEN-wEeOKN-thXSzDPA" type="3001" fontName="Segoe UI">
+          <children xmi:type="notation:DecorationNode" xmi:id="_z3emEt-wEeOKN-thXSzDPA" type="5001"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_z3emE9-wEeOKN-thXSzDPA" type="5015"/>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_z3emFN-wEeOKN-thXSzDPA" type="7005">
+            <styles xmi:type="notation:TitleStyle" xmi:id="_z3emFd-wEeOKN-thXSzDPA" showTitle="true"/>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_z3emFt-wEeOKN-thXSzDPA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_z3emF9-wEeOKN-thXSzDPA"/>
+          </children>
+          <element xmi:type="uml:State" href="Encuesta.uml#_z3WqQN-wEeOKN-thXSzDPA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_z3emEd-wEeOKN-thXSzDPA" x="702" y="571"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_4BoSUN-wEeOKN-thXSzDPA" type="3010" fontName="Segoe UI">
+          <element xmi:type="uml:Pseudostate" href="Encuesta.uml#_4BnrQN-wEeOKN-thXSzDPA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4BoSUd-wEeOKN-thXSzDPA" x="737" y="471"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_41bGwN-wEeOKN-thXSzDPA" type="Note" fontName="Segoe UI" description="¿Se tiene otro periodo de publicación registrado?" transparency="0" lineColor="16777215" lineWidth="1">
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_41bGxN-wEeOKN-thXSzDPA" type="DiagramName">
+            <element xsi:nil="true"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_41bGxd-wEeOKN-thXSzDPA" type="Description">
+            <element xsi:nil="true"/>
+          </children>
+          <styles xmi:type="notation:TextStyle" xmi:id="_41bGwd-wEeOKN-thXSzDPA"/>
+          <styles xmi:type="notation:LineTypeStyle" xmi:id="_41bGwt-wEeOKN-thXSzDPA"/>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_41bGw9-wEeOKN-thXSzDPA" x="597" y="444" width="136"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_XvRIwN-xEeOKN-thXSzDPA" type="Note" fontName="Segoe UI" description="No" transparency="0" lineColor="16777215" lineWidth="1">
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_XvRv0N-xEeOKN-thXSzDPA" type="DiagramName">
+            <element xsi:nil="true"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_XvRv0d-xEeOKN-thXSzDPA" type="Description">
+            <element xsi:nil="true"/>
+          </children>
+          <styles xmi:type="notation:TextStyle" xmi:id="_XvRIwd-xEeOKN-thXSzDPA"/>
+          <styles xmi:type="notation:LineTypeStyle" xmi:id="_XvRIwt-xEeOKN-thXSzDPA"/>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XvRIw9-xEeOKN-thXSzDPA" x="817" y="462" width="41" height="30"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_ZF6yoN-xEeOKN-thXSzDPA" type="Note" fontName="Segoe UI" description="Si" transparency="0" lineColor="16777215" lineWidth="1">
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_ZF7ZsN-xEeOKN-thXSzDPA" type="DiagramName">
+            <element xsi:nil="true"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_ZF7Zsd-xEeOKN-thXSzDPA" type="Description">
+            <element xsi:nil="true"/>
+          </children>
+          <styles xmi:type="notation:TextStyle" xmi:id="_ZF6yod-xEeOKN-thXSzDPA"/>
+          <styles xmi:type="notation:LineTypeStyle" xmi:id="_ZF6yot-xEeOKN-thXSzDPA"/>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZF6yo9-xEeOKN-thXSzDPA" x="759" y="521" width="39" height="32"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_NN_s8N-yEeOKN-thXSzDPA" type="3009">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_NN_s8d-yEeOKN-thXSzDPA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_NN_s8t-yEeOKN-thXSzDPA" fontName="Segoe UI"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_NN_s89-yEeOKN-thXSzDPA"/>
+          <element xmi:type="uml:Pseudostate" href="Encuesta.uml#_NN93wN-yEeOKN-thXSzDPA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NN_s9N-yEeOKN-thXSzDPA" x="552" y="301"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_tBWx0OBrEeOKN-thXSzDPA" type="3001" fontName="Segoe UI">
+          <children xmi:type="notation:DecorationNode" xmi:id="_tBWx0uBrEeOKN-thXSzDPA" type="5001"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_tBWx0-BrEeOKN-thXSzDPA" type="5015"/>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_tBWx1OBrEeOKN-thXSzDPA" type="7005">
+            <styles xmi:type="notation:TitleStyle" xmi:id="_tBWx1eBrEeOKN-thXSzDPA" showTitle="true"/>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_tBWx1uBrEeOKN-thXSzDPA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_tBWx1-BrEeOKN-thXSzDPA"/>
+          </children>
+          <element xmi:type="uml:State" href="Encuesta.uml#_tBR5UOBrEeOKN-thXSzDPA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tBWx0eBrEeOKN-thXSzDPA" x="287" y="376"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_nqfTcOBuEeOKN-thXSzDPA" type="3010" fontName="Segoe UI">
+          <element xmi:type="uml:Pseudostate" href="Encuesta.uml#_nqeFUOBuEeOKN-thXSzDPA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nqfTceBuEeOKN-thXSzDPA" x="312" y="286"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_2U2PEOBuEeOKN-thXSzDPA" type="Note" fontName="Segoe UI" description="¿La encuesta sufrirá más cambios?" transparency="0" lineColor="16777215" lineWidth="1">
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_2U2PFOBuEeOKN-thXSzDPA" type="DiagramName">
+            <element xsi:nil="true"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_2U2PFeBuEeOKN-thXSzDPA" type="Description">
+            <element xsi:nil="true"/>
+          </children>
+          <styles xmi:type="notation:TextStyle" xmi:id="_2U2PEeBuEeOKN-thXSzDPA"/>
+          <styles xmi:type="notation:LineTypeStyle" xmi:id="_2U2PEuBuEeOKN-thXSzDPA"/>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2U2PE-BuEeOKN-thXSzDPA" x="242" y="241" width="125" height="44"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_DIEC4OBvEeOKN-thXSzDPA" type="Note" fontName="Segoe UI" description="Si" transparency="0" lineColor="16777215" lineWidth="1">
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_DIEC5OBvEeOKN-thXSzDPA" type="DiagramName">
+            <element xsi:nil="true"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_DIEC5eBvEeOKN-thXSzDPA" type="Description">
+            <element xsi:nil="true"/>
+          </children>
+          <styles xmi:type="notation:TextStyle" xmi:id="_DIEC4eBvEeOKN-thXSzDPA"/>
+          <styles xmi:type="notation:LineTypeStyle" xmi:id="_DIEC4uBvEeOKN-thXSzDPA"/>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DIEC4-BvEeOKN-thXSzDPA" x="312" y="331" width="31" height="29"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_JrbCMOBvEeOKN-thXSzDPA" type="Note" fontName="Segoe UI" description="Modificar encuesta" transparency="0" lineColor="16777215" lineWidth="1">
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_JrbpQOBvEeOKN-thXSzDPA" type="DiagramName">
+            <element xsi:nil="true"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_JrbpQeBvEeOKN-thXSzDPA" type="Description">
+            <element xsi:nil="true"/>
+          </children>
+          <styles xmi:type="notation:TextStyle" xmi:id="_JrbCMeBvEeOKN-thXSzDPA"/>
+          <styles xmi:type="notation:LineTypeStyle" xmi:id="_JrbCMuBvEeOKN-thXSzDPA"/>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JrbCM-BvEeOKN-thXSzDPA" x="172" y="371" height="25"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_NrLcUOBvEeOKN-thXSzDPA" type="Note" fontName="Segoe UI" description="No" transparency="0" lineColor="16777215" lineWidth="1">
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_NrMDYOBvEeOKN-thXSzDPA" type="DiagramName">
+            <element xsi:nil="true"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_NrMDYeBvEeOKN-thXSzDPA" type="Description">
+            <element xsi:nil="true"/>
+          </children>
+          <styles xmi:type="notation:TextStyle" xmi:id="_NrLcUeBvEeOKN-thXSzDPA"/>
+          <styles xmi:type="notation:LineTypeStyle" xmi:id="_NrLcUuBvEeOKN-thXSzDPA"/>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NrLcU-BvEeOKN-thXSzDPA" x="372" y="285" width="46" height="27"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_bxYakOE2EeOKN-thXSzDPA" type="3009">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_bxYakeE2EeOKN-thXSzDPA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_bxYakuE2EeOKN-thXSzDPA" fontName="Segoe UI"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_bxYak-E2EeOKN-thXSzDPA"/>
+          <element xmi:type="uml:Pseudostate" href="Encuesta.uml#_bxWlYOE2EeOKN-thXSzDPA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bxYalOE2EeOKN-thXSzDPA" x="167" y="296"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_byy6YOE3EeOKN-thXSzDPA" type="Note" fontName="Segoe UI" description="Modificar encuesta" transparency="0" lineColor="16777215" lineWidth="1">
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_byy6ZOE3EeOKN-thXSzDPA" type="DiagramName">
+            <element xsi:nil="true"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_byzhcOE3EeOKN-thXSzDPA" type="Description">
+            <element xsi:nil="true"/>
+          </children>
+          <styles xmi:type="notation:TextStyle" xmi:id="_byy6YeE3EeOKN-thXSzDPA"/>
+          <styles xmi:type="notation:LineTypeStyle" xmi:id="_byy6YuE3EeOKN-thXSzDPA"/>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_byy6Y-E3EeOKN-thXSzDPA" x="377" y="206" height="25"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_0s128OFUEeOKN-thXSzDPA" type="3003">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_0s128eFUEeOKN-thXSzDPA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_0s128uFUEeOKN-thXSzDPA" fontName="Segoe UI"/>
+          <styles xmi:type="notation:FillStyle" xmi:id="_0s128-FUEeOKN-thXSzDPA"/>
+          <element xmi:type="uml:FinalState" href="Encuesta.uml#_0szasOFUEeOKN-thXSzDPA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0s129OFUEeOKN-thXSzDPA" x="477" y="428"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_2pxdsOFUEeOKN-thXSzDPA" type="Note" fontName="Segoe UI" description="Eliminar encuesta" transparency="0" lineColor="16777215" lineWidth="1">
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_2pxdtOFUEeOKN-thXSzDPA" type="DiagramName">
+            <element xsi:nil="true"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_2pxdteFUEeOKN-thXSzDPA" type="Description">
+            <element xsi:nil="true"/>
+          </children>
+          <styles xmi:type="notation:TextStyle" xmi:id="_2pxdseFUEeOKN-thXSzDPA"/>
+          <styles xmi:type="notation:LineTypeStyle" xmi:id="_2pxdsuFUEeOKN-thXSzDPA"/>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2pxds-FUEeOKN-thXSzDPA" x="437" y="351" height="25"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_GueQYOFVEeOKN-thXSzDPA" type="Note" fontName="Segoe UI" description="Eliminada" transparency="0" lineColor="16777215" lineWidth="1">
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_GueQZOFVEeOKN-thXSzDPA" type="DiagramName">
+            <element xsi:nil="true"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_Gue3cOFVEeOKN-thXSzDPA" type="Description">
+            <element xsi:nil="true"/>
+          </children>
+          <styles xmi:type="notation:TextStyle" xmi:id="_GueQYeFVEeOKN-thXSzDPA"/>
+          <styles xmi:type="notation:LineTypeStyle" xmi:id="_GueQYuFVEeOKN-thXSzDPA"/>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GueQY-FVEeOKN-thXSzDPA" x="447" y="451" width="84" height="28"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_V8u08OHyEeOKN-thXSzDPA" type="Note" fontName="Segoe UI" description="invitacion donde va?" fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_V8xRMOHyEeOKN-thXSzDPA" type="DiagramName">
+            <element xsi:nil="true"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_V8xRMeHyEeOKN-thXSzDPA" type="Description">
+            <element xsi:nil="true"/>
+          </children>
+          <styles xmi:type="notation:TextStyle" xmi:id="_V8u08eHyEeOKN-thXSzDPA"/>
+          <styles xmi:type="notation:LineTypeStyle" xmi:id="_V8u08uHyEeOKN-thXSzDPA"/>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V8u08-HyEeOKN-thXSzDPA" x="265" y="55"/>
+        </children>
+      </children>
+      <element xmi:type="uml:Region" href="Encuesta.uml#_EOkxUN-mEeOKN-thXSzDPA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EPiaod-mEeOKN-thXSzDPA"/>
+    </children>
+    <element xmi:type="uml:StateMachine" href="Encuesta.uml#_ENt1sN-mEeOKN-thXSzDPA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EPfXUd-mEeOKN-thXSzDPA" x="14" y="24" width="1432" height="752"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_DSlDId-mEeOKN-thXSzDPA"/>
+  <element xmi:type="uml:Package" href="Encuesta.uml#_DSEFwN-mEeOKN-thXSzDPA"/>
+  <edges xmi:type="notation:Connector" xmi:id="_x7GvEN-nEeOKN-thXSzDPA" type="4001" source="_HOISsN-mEeOKN-thXSzDPA" target="_bxYakOE2EeOKN-thXSzDPA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_x7GvE9-nEeOKN-thXSzDPA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_x7GvFN-nEeOKN-thXSzDPA" y="40"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_x7GvEd-nEeOKN-thXSzDPA" fontName="Segoe UI"/>
+    <element xmi:type="uml:Transition" href="Encuesta.uml#_x7Fg8N-nEeOKN-thXSzDPA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_x7GvEt-nEeOKN-thXSzDPA" points="[8, 0, -156, -8]$[161, 7, -3, -1]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_ynRRgN-nEeOKN-thXSzDPA" type="4001" source="_HpsNUN-mEeOKN-thXSzDPA" target="_NN_s8N-yEeOKN-thXSzDPA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ynRRg9-nEeOKN-thXSzDPA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ynRRhN-nEeOKN-thXSzDPA" y="40"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_ynRRgd-nEeOKN-thXSzDPA" fontName="Segoe UI"/>
+    <element xmi:type="uml:Transition" href="Encuesta.uml#_ynQqcN-nEeOKN-thXSzDPA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ynRRgt-nEeOKN-thXSzDPA" points="[9, 0, -259, -1]$[224, 11, -44, 10]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ynSfoN-nEeOKN-thXSzDPA" id="(0.8783783783783784,0.5)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_zL3zYN-nEeOKN-thXSzDPA" type="4001" source="_-SC2kN-nEeOKN-thXSzDPA" target="_5BVx8N-nEeOKN-thXSzDPA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_zL3zY9-nEeOKN-thXSzDPA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_zL3zZN-nEeOKN-thXSzDPA" y="40"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_zL3zYd-nEeOKN-thXSzDPA" fontName="Segoe UI"/>
+    <element xmi:type="uml:Transition" href="Encuesta.uml#_zL3MUN-nEeOKN-thXSzDPA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zL3zYt-nEeOKN-thXSzDPA" points="[9, -5, -164, 76]$[161, -83, -12, -2]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="__ULB8N-nEeOKN-thXSzDPA" type="4001" source="_SIz3kN-mEeOKN-thXSzDPA" target="_-SC2kN-nEeOKN-thXSzDPA">
+    <children xmi:type="notation:DecorationNode" xmi:id="__ULpAN-nEeOKN-thXSzDPA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="__ULpAd-nEeOKN-thXSzDPA" y="40"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="__ULB8d-nEeOKN-thXSzDPA" fontName="Segoe UI"/>
+    <element xmi:type="uml:Transition" href="Encuesta.uml#__UKa4N-nEeOKN-thXSzDPA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__ULB8t-nEeOKN-thXSzDPA" points="[12, -15, -69, 72]$[61, -95, -20, -8]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__UM3IN-nEeOKN-thXSzDPA" id="(0.9101123595505618,0.425)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="__3tz4N-nEeOKN-thXSzDPA" type="4001" source="_-SC2kN-nEeOKN-thXSzDPA" target="_jylxsN-mEeOKN-thXSzDPA">
+    <children xmi:type="notation:DecorationNode" xmi:id="__3ua8N-nEeOKN-thXSzDPA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="__3ua8d-nEeOKN-thXSzDPA" y="40"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="__3tz4d-nEeOKN-thXSzDPA" fontName="Segoe UI"/>
+    <element xmi:type="uml:Transition" href="Encuesta.uml#__3tM0N-nEeOKN-thXSzDPA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__3tz4t-nEeOKN-thXSzDPA" points="[0, -20, 140, 115]$[0, -135, 140, 0]$[-136, -135, 4, 0]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__3vpEN-nEeOKN-thXSzDPA" id="(0.9523809523809523,0.5)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_CAJgAN-oEeOKN-thXSzDPA" type="4001" source="_jylxsN-mEeOKN-thXSzDPA" target="_SIz3kN-mEeOKN-thXSzDPA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_CAJgA9-oEeOKN-thXSzDPA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_CAJgBN-oEeOKN-thXSzDPA" y="40"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_CAJgAd-oEeOKN-thXSzDPA" fontName="Segoe UI"/>
+    <element xmi:type="uml:Transition" href="Encuesta.uml#_CAI48N-oEeOKN-thXSzDPA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_CAJgAt-oEeOKN-thXSzDPA" points="[-4, 0, 130, -119]$[-134, 0, 0, -119]$[-134, 115, 0, -4]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CAKuIN-oEeOKN-thXSzDPA" id="(0.047619047619047616,0.55)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4NZFIN-qEeOKN-thXSzDPA" id="(0.449438202247191,0.1)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_hsttgN-qEeOKN-thXSzDPA" type="4001" source="_-SC2kN-nEeOKN-thXSzDPA" target="_SIz3kN-mEeOKN-thXSzDPA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_hsttg9-qEeOKN-thXSzDPA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_hstthN-qEeOKN-thXSzDPA" y="40"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_hsttgd-qEeOKN-thXSzDPA" fontName="Segoe UI"/>
+    <element xmi:type="uml:Transition" href="Encuesta.uml#_hssfYN-qEeOKN-thXSzDPA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_hsttgt-qEeOKN-thXSzDPA" points="[0, 20, 317, 1]$[0, 80, 317, 61]$[-317, 80, 0, 61]$[-317, 22, 0, 3]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hsu7oN-qEeOKN-thXSzDPA" id="(0.8202247191011236,0.925)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_nWp8EN-rEeOKN-thXSzDPA" type="4001" source="_SIz3kN-mEeOKN-thXSzDPA" target="_4BoSUN-wEeOKN-thXSzDPA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_nWp8E9-rEeOKN-thXSzDPA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_nWp8FN-rEeOKN-thXSzDPA" y="40"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_nWp8Ed-rEeOKN-thXSzDPA" fontName="Segoe UI"/>
+    <element xmi:type="uml:Transition" href="Encuesta.uml#_nWot8N-rEeOKN-thXSzDPA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nWp8Et-rEeOKN-thXSzDPA" points="[2, 9, -3, -124]$[-6, 133, -11, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nWrKMN-rEeOKN-thXSzDPA" id="(0.4606741573033708,0.775)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__igCwN-wEeOKN-thXSzDPA" id="(0.45,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_Kaya8N-xEeOKN-thXSzDPA" type="4001" source="_4BoSUN-wEeOKN-thXSzDPA" target="_z3emEN-wEeOKN-thXSzDPA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Kaya89-xEeOKN-thXSzDPA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Kaya9N-xEeOKN-thXSzDPA" y="40"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Kaya8d-xEeOKN-thXSzDPA" fontName="Segoe UI"/>
+    <element xmi:type="uml:Transition" href="Encuesta.uml#_Kaxz4N-xEeOKN-thXSzDPA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Kaya8t-xEeOKN-thXSzDPA" points="[0, 6, 0, -68]$[0, 66, 0, -8]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KazpEN-xEeOKN-thXSzDPA" id="(0.475,0.85)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KazpEd-xEeOKN-thXSzDPA" id="(0.5,0.2)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_VcRLYN-xEeOKN-thXSzDPA" type="4001" source="_4BoSUN-wEeOKN-thXSzDPA" target="_DEOzMN-oEeOKN-thXSzDPA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_VcRLY9-xEeOKN-thXSzDPA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_VcRLZN-xEeOKN-thXSzDPA" y="40"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_VcRLYd-xEeOKN-thXSzDPA" fontName="Segoe UI"/>
+    <element xmi:type="uml:Transition" href="Encuesta.uml#_VcP9QN-xEeOKN-thXSzDPA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_VcRLYt-xEeOKN-thXSzDPA" points="[9, 0, -196, -5]$[194, 4, -11, -1]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VcSZgN-xEeOKN-thXSzDPA" id="(0.775,0.4)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_H2NI4N-yEeOKN-thXSzDPA" type="4001" source="_z3emEN-wEeOKN-thXSzDPA" target="_NN_s8N-yEeOKN-thXSzDPA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_H2NI49-yEeOKN-thXSzDPA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_H2NI5N-yEeOKN-thXSzDPA" y="40"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_H2NI4d-yEeOKN-thXSzDPA" fontName="Segoe UI"/>
+    <element xmi:type="uml:Transition" href="Encuesta.uml#_H2L6wN-yEeOKN-thXSzDPA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_H2NI4t-yEeOKN-thXSzDPA" points="[-1, 0, 143, 281]$[-144, 0, 0, 281]$[-144, -273, 0, 8]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_H2OXAN-yEeOKN-thXSzDPA" id="(0.009259259259259259,0.45)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_R8CwcN-yEeOKN-thXSzDPA" type="4001" source="_NN_s8N-yEeOKN-thXSzDPA" target="_SIz3kN-mEeOKN-thXSzDPA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_R8Cwc9-yEeOKN-thXSzDPA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_R8CwdN-yEeOKN-thXSzDPA" y="40"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_R8Cwcd-yEeOKN-thXSzDPA" fontName="Segoe UI"/>
+    <element xmi:type="uml:Transition" href="Encuesta.uml#_R8CJYN-yEeOKN-thXSzDPA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_R8Cwct-yEeOKN-thXSzDPA" points="[8, 3, -189, 3]$[153, 9, -44, 9]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_ChjcgOBvEeOKN-thXSzDPA" type="4001" source="_nqfTcOBuEeOKN-thXSzDPA" target="_tBWx0OBrEeOKN-thXSzDPA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Chjcg-BvEeOKN-thXSzDPA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ChjchOBvEeOKN-thXSzDPA" y="40"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_ChjcgeBvEeOKN-thXSzDPA" fontName="Segoe UI"/>
+    <element xmi:type="uml:Transition" href="Encuesta.uml#_Chi1cOBvEeOKN-thXSzDPA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ChjcguBvEeOKN-thXSzDPA" points="[-1, 8, -1, -70]$[-9, 58, -9, -20]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ChkqoOBvEeOKN-thXSzDPA" id="(0.475,0.8)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_IY31MOBvEeOKN-thXSzDPA" type="4001" source="_tBWx0OBrEeOKN-thXSzDPA" target="_bxYakOE2EeOKN-thXSzDPA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_IY4cQOBvEeOKN-thXSzDPA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_IY4cQeBvEeOKN-thXSzDPA" y="40"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_IY31MeBvEeOKN-thXSzDPA" fontName="Segoe UI"/>
+    <element xmi:type="uml:Transition" href="Encuesta.uml#_IY3OIOBvEeOKN-thXSzDPA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IY31MuBvEeOKN-thXSzDPA" points="[-3, 0, 113, 90]$[-116, 0, 0, 90]$[-116, -82, 0, 8]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IY5DUOBvEeOKN-thXSzDPA" id="(0.03409090909090909,0.425)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_ND7PEOBvEeOKN-thXSzDPA" type="4001" source="_nqfTcOBuEeOKN-thXSzDPA" target="_HpsNUN-mEeOKN-thXSzDPA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ND72IOBvEeOKN-thXSzDPA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ND72IeBvEeOKN-thXSzDPA" y="40"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_ND7PEeBvEeOKN-thXSzDPA" fontName="Segoe UI"/>
+    <element xmi:type="uml:Transition" href="Encuesta.uml#_ND6oAOBvEeOKN-thXSzDPA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ND7PEuBvEeOKN-thXSzDPA" points="[20, 0, -100, 0]$[112, -1, -8, -1]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ND8dMOBvEeOKN-thXSzDPA" id="(0.10810810810810811,0.475)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_jAY-8OE2EeOKN-thXSzDPA" type="4001" source="_bxYakOE2EeOKN-thXSzDPA" target="_nqfTcOBuEeOKN-thXSzDPA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_jAY-8-E2EeOKN-thXSzDPA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jAY-9OE2EeOKN-thXSzDPA" y="40"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_jAY-8eE2EeOKN-thXSzDPA" fontName="Segoe UI"/>
+    <element xmi:type="uml:Transition" href="Encuesta.uml#_jAYX4OE2EeOKN-thXSzDPA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jAY-8uE2EeOKN-thXSzDPA" points="[8, 2, -41, 0]$[43, 1, -6, -1]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jAZmAOE2EeOKN-thXSzDPA" id="(0.15,0.475)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_FlX18OE3EeOKN-thXSzDPA" type="4001" source="_HpsNUN-mEeOKN-thXSzDPA" target="_bxYakOE2EeOKN-thXSzDPA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_FlX18-E3EeOKN-thXSzDPA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_FlX19OE3EeOKN-thXSzDPA" y="40"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_FlX18eE3EeOKN-thXSzDPA" fontName="Segoe UI"/>
+    <element xmi:type="uml:Transition" href="Encuesta.uml#_FlXO4OE3EeOKN-thXSzDPA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FlX18uE3EeOKN-thXSzDPA" points="[0, 0, 315, -10]$[0, -61, 315, -71]$[-315, -61, 0, -71]$[-315, 9, 0, -1]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FlZEEOE3EeOKN-thXSzDPA" id="(0.5405405405405406,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FlZEEeE3EeOKN-thXSzDPA" id="(0.4666666666666667,0.06666666666666667)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_1ji1cOFUEeOKN-thXSzDPA" type="4001" source="_HpsNUN-mEeOKN-thXSzDPA" target="_0s128OFUEeOKN-thXSzDPA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_1ji1c-FUEeOKN-thXSzDPA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_1ji1dOFUEeOKN-thXSzDPA" y="40"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_1ji1ceFUEeOKN-thXSzDPA" fontName="Segoe UI"/>
+    <element xmi:type="uml:Transition" href="Encuesta.uml#_1jhnUOFUEeOKN-thXSzDPA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1ji1cuFUEeOKN-thXSzDPA" points="[0, 3, -4, -112]$[5, 104, 1, -11]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1jkDkOFUEeOKN-thXSzDPA" id="(0.5675675675675675,0.925)"/>
+  </edges>
+</notation:Diagram>

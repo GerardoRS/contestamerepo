@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_k6mMgN-vEeOKN-thXSzDPA">
+  <elementImport xmi:id="_k66VkN-vEeOKN-thXSzDPA">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+  </elementImport>
+  <elementImport xmi:id="_k66Vkd-vEeOKN-thXSzDPA">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </elementImport>
+  <elementImport xmi:id="_k66Vkt-vEeOKN-thXSzDPA">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#UnlimitedNatural"/>
+  </elementImport>
+  <elementImport xmi:id="_k66Vk9-vEeOKN-thXSzDPA">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+  </elementImport>
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_mpbs4N-vEeOKN-thXSzDPA" name="DES Cuestionario">
+    <region xmi:id="_mphzgN-vEeOKN-thXSzDPA" name="Region">
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_okENkN-vEeOKN-thXSzDPA"/>
+      <subvertex xmi:type="uml:FinalState" xmi:id="_SiKAIN-wEeOKN-thXSzDPA"/>
+      <subvertex xmi:type="uml:State" xmi:id="_YQmwsN-wEeOKN-thXSzDPA" name="Creado"/>
+      <subvertex xmi:type="uml:State" xmi:id="_ZMtMkN-wEeOKN-thXSzDPA" name="Contestado"/>
+      <subvertex xmi:type="uml:State" xmi:id="_dIuWMN-wEeOKN-thXSzDPA" name="Activo"/>
+      <subvertex xmi:type="uml:State" xmi:id="_iafKwN-wEeOKN-thXSzDPA" name="Guardado"/>
+      <subvertex xmi:type="uml:State" xmi:id="_uPxswOBrEeOKN-thXSzDPA" name="Guardado"/>
+      <transition xmi:id="_WLWpgN-yEeOKN-thXSzDPA" source="_okENkN-vEeOKN-thXSzDPA" target="_YQmwsN-wEeOKN-thXSzDPA"/>
+      <transition xmi:id="_BOEacN-2EeOKN-thXSzDPA" source="_YQmwsN-wEeOKN-thXSzDPA" target="_dIuWMN-wEeOKN-thXSzDPA"/>
+      <transition xmi:id="_anzTUOA5EeOKN-thXSzDPA" source="_dIuWMN-wEeOKN-thXSzDPA" target="_iafKwN-wEeOKN-thXSzDPA"/>
+      <transition xmi:id="_bD-R8OA5EeOKN-thXSzDPA" source="_iafKwN-wEeOKN-thXSzDPA" target="_ZMtMkN-wEeOKN-thXSzDPA"/>
+      <transition xmi:id="_bhQD0OA5EeOKN-thXSzDPA" source="_ZMtMkN-wEeOKN-thXSzDPA" target="_SiKAIN-wEeOKN-thXSzDPA"/>
+    </region>
+  </packagedElement>
+</uml:Package>

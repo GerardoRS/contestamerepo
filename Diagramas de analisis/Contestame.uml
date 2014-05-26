@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_XfMm0OA9EeOKN-thXSzDPA" name="Contestame">
+  <elementImport xmi:id="_XfhW8OA9EeOKN-thXSzDPA">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+  </elementImport>
+  <elementImport xmi:id="_XfhW8eA9EeOKN-thXSzDPA">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </elementImport>
+  <elementImport xmi:id="_XfhW8uA9EeOKN-thXSzDPA">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#UnlimitedNatural"/>
+  </elementImport>
+  <elementImport xmi:id="_XfhW8-A9EeOKN-thXSzDPA">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+  </elementImport>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_ZoqNsOA9EeOKN-thXSzDPA" name="Investigador"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_ap62YOA9EeOKN-thXSzDPA" name="Encuestador"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_b1hG0OA9EeOKN-thXSzDPA" name="Encuestado"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_hrSnYOA9EeOKN-thXSzDPA" name="Crear encuesta"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_iHdmAOA9EeOKN-thXSzDPA" name="Modificar encuesta"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_iZkCoOA9EeOKN-thXSzDPA" name="Eliminar encuesta"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_ixuD8OA9EeOKN-thXSzDPA" name="Consultar encuesta"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_rRjXAOA9EeOKN-thXSzDPA" name="Crear plantilla de encuesta">
+    <include xmi:id="_BZUfkOBjEeOKN-thXSzDPA" addition="_Gh1Y4OBgEeOKN-thXSzDPA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_uzxgkOA9EeOKN-thXSzDPA" memberEnd="_uzyusOA9EeOKN-thXSzDPA _uz3nMuA9EeOKN-thXSzDPA" navigableOwnedEnd="_uz3nMuA9EeOKN-thXSzDPA">
+    <ownedEnd xmi:id="_uzyusOA9EeOKN-thXSzDPA" name="src" type="_ZoqNsOA9EeOKN-thXSzDPA" association="_uzxgkOA9EeOKN-thXSzDPA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uz3nMeA9EeOKN-thXSzDPA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_uz3nMOA9EeOKN-thXSzDPA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_uz3nMuA9EeOKN-thXSzDPA" name="dst" type="_hrSnYOA9EeOKN-thXSzDPA" association="_uzxgkOA9EeOKN-thXSzDPA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uz3nNOA9EeOKN-thXSzDPA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_uz3nM-A9EeOKN-thXSzDPA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_yBLQsOA9EeOKN-thXSzDPA" name="Publicar encuesta"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_COGyUOA-EeOKN-thXSzDPA" name="Detener publicacion"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_EzjxoOA-EeOKN-thXSzDPA" name="Reanudar publicacion"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Ge-xoOA-EeOKN-thXSzDPA" name="Terminar publicacion"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_sqAiQOA-EeOKN-thXSzDPA" memberEnd="_sqAiQeA-EeOKN-thXSzDPA _sqBJUeA-EeOKN-thXSzDPA" navigableOwnedEnd="_sqBJUeA-EeOKN-thXSzDPA">
+    <ownedEnd xmi:id="_sqAiQeA-EeOKN-thXSzDPA" name="src" type="_ZoqNsOA9EeOKN-thXSzDPA" association="_sqAiQOA-EeOKN-thXSzDPA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sqBJUOA-EeOKN-thXSzDPA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sqAiQuA-EeOKN-thXSzDPA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_sqBJUeA-EeOKN-thXSzDPA" name="dst" type="_iHdmAOA9EeOKN-thXSzDPA" association="_sqAiQOA-EeOKN-thXSzDPA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sqBJU-A-EeOKN-thXSzDPA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sqBJUuA-EeOKN-thXSzDPA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_t-oy4OA-EeOKN-thXSzDPA" memberEnd="_t-oy4eA-EeOKN-thXSzDPA _t-pZ8eA-EeOKN-thXSzDPA" navigableOwnedEnd="_t-pZ8eA-EeOKN-thXSzDPA">
+    <ownedEnd xmi:id="_t-oy4eA-EeOKN-thXSzDPA" name="src" type="_ZoqNsOA9EeOKN-thXSzDPA" association="_t-oy4OA-EeOKN-thXSzDPA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_t-pZ8OA-EeOKN-thXSzDPA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_t-oy4uA-EeOKN-thXSzDPA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_t-pZ8eA-EeOKN-thXSzDPA" name="dst" type="_iZkCoOA9EeOKN-thXSzDPA" association="_t-oy4OA-EeOKN-thXSzDPA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_t-pZ8-A-EeOKN-thXSzDPA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_t-pZ8uA-EeOKN-thXSzDPA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_vkmEEOA-EeOKN-thXSzDPA" memberEnd="_vkmEEeA-EeOKN-thXSzDPA _vkmEFOA-EeOKN-thXSzDPA" navigableOwnedEnd="_vkmEFOA-EeOKN-thXSzDPA">
+    <ownedEnd xmi:id="_vkmEEeA-EeOKN-thXSzDPA" name="src" type="_ZoqNsOA9EeOKN-thXSzDPA" association="_vkmEEOA-EeOKN-thXSzDPA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vkmEE-A-EeOKN-thXSzDPA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vkmEEuA-EeOKN-thXSzDPA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_vkmEFOA-EeOKN-thXSzDPA" name="dst" type="_ixuD8OA9EeOKN-thXSzDPA" association="_vkmEEOA-EeOKN-thXSzDPA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vkmEFuA-EeOKN-thXSzDPA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vkmEFeA-EeOKN-thXSzDPA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_yXK5YOA-EeOKN-thXSzDPA" memberEnd="_yXK5YeA-EeOKN-thXSzDPA _yXLgcuA-EeOKN-thXSzDPA" navigableOwnedEnd="_yXLgcuA-EeOKN-thXSzDPA">
+    <ownedEnd xmi:id="_yXK5YeA-EeOKN-thXSzDPA" name="src" type="_7FMVcOBqEeOKN-thXSzDPA" association="_yXK5YOA-EeOKN-thXSzDPA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yXLgceA-EeOKN-thXSzDPA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yXLgcOA-EeOKN-thXSzDPA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_yXLgcuA-EeOKN-thXSzDPA" name="dst" type="_yBLQsOA9EeOKN-thXSzDPA" association="_yXK5YOA-EeOKN-thXSzDPA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yXLgdOA-EeOKN-thXSzDPA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yXLgc-A-EeOKN-thXSzDPA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_zGjH4OA-EeOKN-thXSzDPA" memberEnd="_zGjH4eA-EeOKN-thXSzDPA _zGju8OA-EeOKN-thXSzDPA" navigableOwnedEnd="_zGju8OA-EeOKN-thXSzDPA">
+    <ownedEnd xmi:id="_zGjH4eA-EeOKN-thXSzDPA" name="src" type="_ZoqNsOA9EeOKN-thXSzDPA" association="_zGjH4OA-EeOKN-thXSzDPA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zGjH4-A-EeOKN-thXSzDPA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zGjH4uA-EeOKN-thXSzDPA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_zGju8OA-EeOKN-thXSzDPA" name="dst" type="_COGyUOA-EeOKN-thXSzDPA" association="_zGjH4OA-EeOKN-thXSzDPA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zGju8uA-EeOKN-thXSzDPA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zGju8eA-EeOKN-thXSzDPA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_zv_GcOA-EeOKN-thXSzDPA" memberEnd="_zv_GceA-EeOKN-thXSzDPA _zv_GdOA-EeOKN-thXSzDPA" navigableOwnedEnd="_zv_GdOA-EeOKN-thXSzDPA">
+    <ownedEnd xmi:id="_zv_GceA-EeOKN-thXSzDPA" name="src" type="_ZoqNsOA9EeOKN-thXSzDPA" association="_zv_GcOA-EeOKN-thXSzDPA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zv_Gc-A-EeOKN-thXSzDPA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zv_GcuA-EeOKN-thXSzDPA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_zv_GdOA-EeOKN-thXSzDPA" name="dst" type="_EzjxoOA-EeOKN-thXSzDPA" association="_zv_GcOA-EeOKN-thXSzDPA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zv_GduA-EeOKN-thXSzDPA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zv_GdeA-EeOKN-thXSzDPA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_0dlMQOA-EeOKN-thXSzDPA" memberEnd="_0dlzUOA-EeOKN-thXSzDPA _0dlzU-A-EeOKN-thXSzDPA" navigableOwnedEnd="_0dlzU-A-EeOKN-thXSzDPA">
+    <ownedEnd xmi:id="_0dlzUOA-EeOKN-thXSzDPA" name="src" type="_7FMVcOBqEeOKN-thXSzDPA" association="_0dlMQOA-EeOKN-thXSzDPA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0dlzUuA-EeOKN-thXSzDPA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0dlzUeA-EeOKN-thXSzDPA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_0dlzU-A-EeOKN-thXSzDPA" name="dst" type="_Ge-xoOA-EeOKN-thXSzDPA" association="_0dlMQOA-EeOKN-thXSzDPA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0dlzVeA-EeOKN-thXSzDPA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0dlzVOA-EeOKN-thXSzDPA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_UNL7IOBLEeOKN-thXSzDPA" name="Modificar plantilla de encuestas">
+    <include xmi:id="_PR-4gOBjEeOKN-thXSzDPA" addition="_TlNIkOBgEeOKN-thXSzDPA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_eJ6C8OBLEeOKN-thXSzDPA" name="Eliminar plantilla de encuestas">
+    <include xmi:id="_UyiXAOBjEeOKN-thXSzDPA" addition="_UaIlcOBgEeOKN-thXSzDPA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_lNn9UOBLEeOKN-thXSzDPA" name="Consultar plantilla de encuestas">
+    <include xmi:id="_Y5AdIOBjEeOKN-thXSzDPA" addition="_SIH0oOBiEeOKN-thXSzDPA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_SmtaoOBNEeOKN-thXSzDPA" memberEnd="_SmtaoeBNEeOKN-thXSzDPA _SmtapOBNEeOKN-thXSzDPA" navigableOwnedEnd="_SmtapOBNEeOKN-thXSzDPA">
+    <ownedEnd xmi:id="_SmtaoeBNEeOKN-thXSzDPA" name="src" type="_ZoqNsOA9EeOKN-thXSzDPA" association="_SmtaoOBNEeOKN-thXSzDPA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Smtao-BNEeOKN-thXSzDPA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_SmtaouBNEeOKN-thXSzDPA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_SmtapOBNEeOKN-thXSzDPA" name="dst" type="_rRjXAOA9EeOKN-thXSzDPA" association="_SmtaoOBNEeOKN-thXSzDPA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_SmuBsOBNEeOKN-thXSzDPA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_SmtapeBNEeOKN-thXSzDPA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_UoVUIOBNEeOKN-thXSzDPA" memberEnd="_UoV7MOBNEeOKN-thXSzDPA _UoV7M-BNEeOKN-thXSzDPA" navigableOwnedEnd="_UoV7M-BNEeOKN-thXSzDPA">
+    <ownedEnd xmi:id="_UoV7MOBNEeOKN-thXSzDPA" name="src" type="_ZoqNsOA9EeOKN-thXSzDPA" association="_UoVUIOBNEeOKN-thXSzDPA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UoV7MuBNEeOKN-thXSzDPA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UoV7MeBNEeOKN-thXSzDPA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_UoV7M-BNEeOKN-thXSzDPA" name="dst" type="_UNL7IOBLEeOKN-thXSzDPA" association="_UoVUIOBNEeOKN-thXSzDPA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UoV7NeBNEeOKN-thXSzDPA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UoV7NOBNEeOKN-thXSzDPA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_VYgM0OBNEeOKN-thXSzDPA" memberEnd="_VYgM0eBNEeOKN-thXSzDPA _VYgz4eBNEeOKN-thXSzDPA" navigableOwnedEnd="_VYgz4eBNEeOKN-thXSzDPA">
+    <ownedEnd xmi:id="_VYgM0eBNEeOKN-thXSzDPA" name="src" type="_ZoqNsOA9EeOKN-thXSzDPA" association="_VYgM0OBNEeOKN-thXSzDPA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VYgz4OBNEeOKN-thXSzDPA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_VYgM0uBNEeOKN-thXSzDPA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_VYgz4eBNEeOKN-thXSzDPA" name="dst" type="_eJ6C8OBLEeOKN-thXSzDPA" association="_VYgM0OBNEeOKN-thXSzDPA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VYgz4-BNEeOKN-thXSzDPA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_VYgz4uBNEeOKN-thXSzDPA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_XDGtcOBNEeOKN-thXSzDPA" memberEnd="_XDHUgOBNEeOKN-thXSzDPA _XDHUg-BNEeOKN-thXSzDPA" navigableOwnedEnd="_XDHUg-BNEeOKN-thXSzDPA">
+    <ownedEnd xmi:id="_XDHUgOBNEeOKN-thXSzDPA" name="src" type="_ZoqNsOA9EeOKN-thXSzDPA" association="_XDGtcOBNEeOKN-thXSzDPA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XDHUguBNEeOKN-thXSzDPA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_XDHUgeBNEeOKN-thXSzDPA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_XDHUg-BNEeOKN-thXSzDPA" name="dst" type="_lNn9UOBLEeOKN-thXSzDPA" association="_XDGtcOBNEeOKN-thXSzDPA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XDH7keBNEeOKN-thXSzDPA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_XDH7kOBNEeOKN-thXSzDPA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_hOCQYOBNEeOKN-thXSzDPA" name="Crear diseño de encuestas"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_k8na8OBNEeOKN-thXSzDPA" name="Modificar diseño de encuestas"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_mDbSAOBNEeOKN-thXSzDPA" name="Eliminar diseño de encuestas"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_nMvqgOBNEeOKN-thXSzDPA" name="Consultar diseño de encuestas"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_8Zdf4OBNEeOKN-thXSzDPA" memberEnd="_8Zdf4eBNEeOKN-thXSzDPA _8Zdf5OBNEeOKN-thXSzDPA" navigableOwnedEnd="_8Zdf5OBNEeOKN-thXSzDPA">
+    <ownedEnd xmi:id="_8Zdf4eBNEeOKN-thXSzDPA" name="src" type="_ZoqNsOA9EeOKN-thXSzDPA" association="_8Zdf4OBNEeOKN-thXSzDPA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8Zdf4-BNEeOKN-thXSzDPA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8Zdf4uBNEeOKN-thXSzDPA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_8Zdf5OBNEeOKN-thXSzDPA" name="dst" type="_nMvqgOBNEeOKN-thXSzDPA" association="_8Zdf4OBNEeOKN-thXSzDPA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8ZeG8eBNEeOKN-thXSzDPA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8ZeG8OBNEeOKN-thXSzDPA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_97NmgOBNEeOKN-thXSzDPA" memberEnd="_97NmgeBNEeOKN-thXSzDPA _97ONkuBNEeOKN-thXSzDPA" navigableOwnedEnd="_97ONkuBNEeOKN-thXSzDPA">
+    <ownedEnd xmi:id="_97NmgeBNEeOKN-thXSzDPA" name="src" type="_ZoqNsOA9EeOKN-thXSzDPA" association="_97NmgOBNEeOKN-thXSzDPA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_97ONkeBNEeOKN-thXSzDPA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_97ONkOBNEeOKN-thXSzDPA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_97ONkuBNEeOKN-thXSzDPA" name="dst" type="_mDbSAOBNEeOKN-thXSzDPA" association="_97NmgOBNEeOKN-thXSzDPA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_97ONlOBNEeOKN-thXSzDPA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_97ONk-BNEeOKN-thXSzDPA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_-mNEQOBNEeOKN-thXSzDPA" memberEnd="_-mNEQeBNEeOKN-thXSzDPA _-mNEROBNEeOKN-thXSzDPA" navigableOwnedEnd="_-mNEROBNEeOKN-thXSzDPA">
+    <ownedEnd xmi:id="_-mNEQeBNEeOKN-thXSzDPA" name="src" type="_ZoqNsOA9EeOKN-thXSzDPA" association="_-mNEQOBNEeOKN-thXSzDPA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-mNEQ-BNEeOKN-thXSzDPA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-mNEQuBNEeOKN-thXSzDPA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_-mNEROBNEeOKN-thXSzDPA" name="dst" type="_k8na8OBNEeOKN-thXSzDPA" association="_-mNEQOBNEeOKN-thXSzDPA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-mNERuBNEeOKN-thXSzDPA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-mNEReBNEeOKN-thXSzDPA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="__IQocOBNEeOKN-thXSzDPA" memberEnd="__IRPgOBNEeOKN-thXSzDPA __IRPg-BNEeOKN-thXSzDPA" navigableOwnedEnd="__IRPg-BNEeOKN-thXSzDPA">
+    <ownedEnd xmi:id="__IRPgOBNEeOKN-thXSzDPA" name="src" type="_ZoqNsOA9EeOKN-thXSzDPA" association="__IQocOBNEeOKN-thXSzDPA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__IRPguBNEeOKN-thXSzDPA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__IRPgeBNEeOKN-thXSzDPA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="__IRPg-BNEeOKN-thXSzDPA" name="dst" type="_hOCQYOBNEeOKN-thXSzDPA" association="__IQocOBNEeOKN-thXSzDPA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__IR2keBNEeOKN-thXSzDPA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__IR2kOBNEeOKN-thXSzDPA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_GD44oOBgEeOKN-thXSzDPA" name="Pre-visualizar cuestionario">
+    <extend xmi:id="_nBv5cOBjEeOKN-thXSzDPA" extendedCase="_hrSnYOA9EeOKN-thXSzDPA"/>
+    <extend xmi:id="_oLXM4OBjEeOKN-thXSzDPA" extendedCase="_iHdmAOA9EeOKN-thXSzDPA"/>
+    <extend xmi:id="_pN62EOBjEeOKN-thXSzDPA" extendedCase="_ixuD8OA9EeOKN-thXSzDPA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_GStXwOBgEeOKN-thXSzDPA" name="Simular cuestionario">
+    <extend xmi:id="_f4U_sOBjEeOKN-thXSzDPA" extendedCase="_hrSnYOA9EeOKN-thXSzDPA"/>
+    <extend xmi:id="_ja5ukOBjEeOKN-thXSzDPA" extendedCase="_iHdmAOA9EeOKN-thXSzDPA"/>
+    <extend xmi:id="_l9ltwOBjEeOKN-thXSzDPA" extendedCase="_ixuD8OA9EeOKN-thXSzDPA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Gh1Y4OBgEeOKN-thXSzDPA" name="Crear cuestionario">
+    <extend xmi:id="_dI0h8OBiEeOKN-thXSzDPA" extendedCase="_hrSnYOA9EeOKN-thXSzDPA"/>
+    <extend xmi:id="_BE4EIOBkEeOKN-thXSzDPA" extendedCase="_iHdmAOA9EeOKN-thXSzDPA"/>
+    <extend xmi:id="_C9bhMOBkEeOKN-thXSzDPA" extendedCase="_UNL7IOBLEeOKN-thXSzDPA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_TlNIkOBgEeOKN-thXSzDPA" name="Modificar cuestionario">
+    <extend xmi:id="_e7GX4OBiEeOKN-thXSzDPA" extendedCase="_iHdmAOA9EeOKN-thXSzDPA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_UaIlcOBgEeOKN-thXSzDPA" name="Eliminar cuestionario">
+    <extend xmi:id="_hU9yQOBiEeOKN-thXSzDPA" extendedCase="_iZkCoOA9EeOKN-thXSzDPA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_fj7kYOBgEeOKN-thXSzDPA" name="Definir grupo objetivo"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_SIH0oOBiEeOKN-thXSzDPA" name="Consultar cuestionario">
+    <extend xmi:id="_jTTuQOBiEeOKN-thXSzDPA" extendedCase="_ixuD8OA9EeOKN-thXSzDPA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_2nh7gOBjEeOKN-thXSzDPA" name="Crear flujo cuestionario">
+    <extend xmi:id="_7-FwgOBjEeOKN-thXSzDPA" extendedCase="_Gh1Y4OBgEeOKN-thXSzDPA"/>
+    <extend xmi:id="_8ekAUOBjEeOKN-thXSzDPA" extendedCase="_TlNIkOBgEeOKN-thXSzDPA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_4qbnYOBjEeOKN-thXSzDPA" name="Modificar flujo cuestionario">
+    <extend xmi:id="_-i9hAOBjEeOKN-thXSzDPA" extendedCase="_TlNIkOBgEeOKN-thXSzDPA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_55SAIOBjEeOKN-thXSzDPA" name="Eliminar flujo cuestionario">
+    <extend xmi:id="_MjTPQOBkEeOKN-thXSzDPA" extendedCase="_UaIlcOBgEeOKN-thXSzDPA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_T8WgcOBkEeOKN-thXSzDPA" name="Consultar flujo cuestionario">
+    <extend xmi:id="_VjyYUOBkEeOKN-thXSzDPA" extendedCase="_SIH0oOBiEeOKN-thXSzDPA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_bE_XEOBkEeOKN-thXSzDPA" name="Eliminar encuestado candidato">
+    <extend xmi:id="_-W3McOBoEeOKN-thXSzDPA" extendedCase="_fj7kYOBgEeOKN-thXSzDPA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_bkQtAOBkEeOKN-thXSzDPA" name="Modificar encuestado candidato">
+    <extend xmi:id="_92JsEOBoEeOKN-thXSzDPA" extendedCase="_fj7kYOBgEeOKN-thXSzDPA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_cA8pAOBkEeOKN-thXSzDPA" name="Registrar encuestado candidato">
+    <extend xmi:id="_9CNtsOBoEeOKN-thXSzDPA" extendedCase="_fj7kYOBgEeOKN-thXSzDPA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_7FMVcOBqEeOKN-thXSzDPA" name="Tiempo"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_GPN94OBrEeOKN-thXSzDPA" name="Medio de distribucion"/>
+</uml:Package>
