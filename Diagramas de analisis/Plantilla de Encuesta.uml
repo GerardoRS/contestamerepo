@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_0ctqkOUVEeOW5djQbW-Muw">
+  <elementImport xmi:id="_0dNZ0OUVEeOW5djQbW-Muw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+  </elementImport>
+  <elementImport xmi:id="_0dNZ0eUVEeOW5djQbW-Muw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </elementImport>
+  <elementImport xmi:id="_0dNZ0uUVEeOW5djQbW-Muw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#UnlimitedNatural"/>
+  </elementImport>
+  <elementImport xmi:id="_0dNZ0-UVEeOW5djQbW-Muw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+  </elementImport>
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_F5IzQOUYEeOW5djQbW-Muw" name="Plantilla de Encuesta">
+    <region xmi:id="_F5agEOUYEeOW5djQbW-Muw" name="Region">
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_H0zOsOUYEeOW5djQbW-Muw"/>
+      <subvertex xmi:type="uml:State" xmi:id="_fdq9cOUYEeOW5djQbW-Muw" name="Terminada"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_VmaH8OUZEeOW5djQbW-Muw" kind="choice"/>
+      <subvertex xmi:type="uml:State" xmi:id="_1Q0rQOUZEeOW5djQbW-Muw" name="Guardada"/>
+      <subvertex xmi:type="uml:State" xmi:id="_p2SoAOUhEeObs_ZQ_FpnoA" name="Activa"/>
+      <subvertex xmi:type="uml:State" xmi:id="_4mV78OUhEeObs_ZQ_FpnoA" name="Desactivada"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_Cx370OUiEeObs_ZQ_FpnoA" kind="choice"/>
+      <subvertex xmi:type="uml:FinalState" xmi:id="_m6ziwOUrEeObs_ZQ_FpnoA"/>
+      <subvertex xmi:type="uml:State" xmi:id="_xtbX0OUrEeObs_ZQ_FpnoA" name="Borrada"/>
+      <subvertex xmi:type="uml:FinalState" xmi:id="_hTpQgOUsEeObs_ZQ_FpnoA"/>
+      <subvertex xmi:type="uml:State" xmi:id="_x4iJsOUtEeObs_ZQ_FpnoA" name="Info Plantilla OK"/>
+      <subvertex xmi:type="uml:State" xmi:id="_57GR8OUtEeObs_ZQ_FpnoA" name="Cuestionario Plantilla OK"/>
+      <subvertex xmi:type="uml:State" xmi:id="_e0kUEOUuEeObs_ZQ_FpnoA" name="En Proceso"/>
+      <subvertex xmi:type="uml:State" xmi:id="_xgGmIOUuEeObs_ZQ_FpnoA" name="Cancelar"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_87Ls4OUvEeObs_ZQ_FpnoA" kind="choice"/>
+      <subvertex xmi:type="uml:FinalState" xmi:id="_6UH5IOUxEeObs_ZQ_FpnoA"/>
+      <subvertex xmi:type="uml:FinalState" xmi:id="_66UWcOUxEeObs_ZQ_FpnoA"/>
+      <transition xmi:id="_D79C8OUaEeOW5djQbW-Muw" source="_VmaH8OUZEeOW5djQbW-Muw" target="_1Q0rQOUZEeOW5djQbW-Muw"/>
+      <transition xmi:id="_GbwGMOUaEeOW5djQbW-Muw" source="_VmaH8OUZEeOW5djQbW-Muw" target="_87Ls4OUvEeObs_ZQ_FpnoA"/>
+      <transition xmi:id="_syq5kOUhEeObs_ZQ_FpnoA" source="_fdq9cOUYEeOW5djQbW-Muw" target="_p2SoAOUhEeObs_ZQ_FpnoA"/>
+      <transition xmi:id="_58ZI4OUhEeObs_ZQ_FpnoA" source="_p2SoAOUhEeObs_ZQ_FpnoA" target="_Cx370OUiEeObs_ZQ_FpnoA"/>
+      <transition xmi:id="_E_rasOUjEeObs_ZQ_FpnoA" source="_Cx370OUiEeObs_ZQ_FpnoA" target="_4mV78OUhEeObs_ZQ_FpnoA"/>
+      <transition xmi:id="_kDKcsOUqEeObs_ZQ_FpnoA" source="_4mV78OUhEeObs_ZQ_FpnoA" target="_p2SoAOUhEeObs_ZQ_FpnoA"/>
+      <transition xmi:id="_obZy0OUrEeObs_ZQ_FpnoA" source="_p2SoAOUhEeObs_ZQ_FpnoA" target="_m6ziwOUrEeObs_ZQ_FpnoA"/>
+      <transition xmi:id="_1fmB4OUrEeObs_ZQ_FpnoA" source="_4mV78OUhEeObs_ZQ_FpnoA" target="_xtbX0OUrEeObs_ZQ_FpnoA"/>
+      <transition xmi:id="_h1O6oOUsEeObs_ZQ_FpnoA" source="_xtbX0OUrEeObs_ZQ_FpnoA" target="_hTpQgOUsEeObs_ZQ_FpnoA"/>
+      <transition xmi:id="_B8NosOUuEeObs_ZQ_FpnoA" source="_x4iJsOUtEeObs_ZQ_FpnoA" target="_57GR8OUtEeObs_ZQ_FpnoA"/>
+      <transition xmi:id="_CkAogOUuEeObs_ZQ_FpnoA" source="_57GR8OUtEeObs_ZQ_FpnoA" target="_fdq9cOUYEeOW5djQbW-Muw"/>
+      <transition xmi:id="_htGncOUuEeObs_ZQ_FpnoA" source="_H0zOsOUYEeOW5djQbW-Muw" target="_e0kUEOUuEeObs_ZQ_FpnoA"/>
+      <transition xmi:id="_iKjYcOUuEeObs_ZQ_FpnoA" source="_e0kUEOUuEeObs_ZQ_FpnoA" target="_VmaH8OUZEeOW5djQbW-Muw"/>
+      <transition xmi:id="_ivRPEOUuEeObs_ZQ_FpnoA" source="_1Q0rQOUZEeOW5djQbW-Muw" target="_e0kUEOUuEeObs_ZQ_FpnoA"/>
+      <transition xmi:id="_JmuycOUwEeObs_ZQ_FpnoA" source="_87Ls4OUvEeObs_ZQ_FpnoA" target="_x4iJsOUtEeObs_ZQ_FpnoA"/>
+      <transition xmi:id="_dE40QOUwEeObs_ZQ_FpnoA" source="_VmaH8OUZEeOW5djQbW-Muw" target="_xgGmIOUuEeObs_ZQ_FpnoA"/>
+      <transition xmi:id="_flQCwOUxEeObs_ZQ_FpnoA" source="_87Ls4OUvEeObs_ZQ_FpnoA" target="_1Q0rQOUZEeOW5djQbW-Muw"/>
+      <transition xmi:id="_hMr6oOUxEeObs_ZQ_FpnoA" source="_87Ls4OUvEeObs_ZQ_FpnoA" target="_xgGmIOUuEeObs_ZQ_FpnoA"/>
+      <transition xmi:id="_7fA-8OUxEeObs_ZQ_FpnoA" source="_1Q0rQOUZEeOW5djQbW-Muw" target="_6UH5IOUxEeObs_ZQ_FpnoA"/>
+      <transition xmi:id="_78dI4OUxEeObs_ZQ_FpnoA" source="_xgGmIOUuEeObs_ZQ_FpnoA" target="_66UWcOUxEeObs_ZQ_FpnoA"/>
+    </region>
+  </packagedElement>
+</uml:Package>
